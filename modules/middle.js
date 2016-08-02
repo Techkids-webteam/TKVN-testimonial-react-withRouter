@@ -364,15 +364,15 @@ render(
 
 
 
-  ReactDOM.render(<AuthorBox url="../MAD_comment.json"/>, document.querySelector('.authorMAD'));
-  ReactDOM.render(<AuthorBox url="../web_comment.json"/>, document.querySelector('.authorWeb'));
-  ReactDOM.render(<AuthorBox url="../c4e_comment.json"/>, document.querySelector('.authorC4E'));
+  ReactDOM.render(<AuthorBox url="./MAD_comment.json"/>, document.querySelector('.authorMAD'));
+  ReactDOM.render(<AuthorBox url="./web_comment.json"/>, document.querySelector('.authorWeb'));
+  ReactDOM.render(<AuthorBox url="./c4e_comment.json"/>, document.querySelector('.authorC4E'));
 
-  ReactDOM.render(<AuthorBoxCarouselVersion url="../MAD_comment.json"/>, document.querySelector('.authorMAD-medium'));
-  ReactDOM.render(<AuthorBoxCarouselVersion url="../web_comment.json"/>, document.querySelector('.authorWeb-medium'));
-  ReactDOM.render(<AuthorBoxCarouselVersion url="../c4e_comment.json"/>, document.querySelector('.authorC4E-medium'));
+  ReactDOM.render(<AuthorBoxCarouselVersion url="./MAD_comment.json"/>, document.querySelector('.authorMAD-medium'));
+  ReactDOM.render(<AuthorBoxCarouselVersion url="./web_comment.json"/>, document.querySelector('.authorWeb-medium'));
+  ReactDOM.render(<AuthorBoxCarouselVersion url="./c4e_comment.json"/>, document.querySelector('.authorC4E-medium'));
 
 
-  ReactDOM.render(<AuthorBoxCarouselVersion url="../MAD_comment.json"/>, document.querySelector('.authorMAD-small'));
-  ReactDOM.render(<AuthorBoxCarouselVersion url="../web_comment.json"/>, document.querySelector('.authorWeb-small'));
-  ReactDOM.render(<AuthorBoxCarouselVersion url="../c4e_comment.json"/>, document.querySelector('.authorC4E-small'));
+  ReactDOM.render(<AuthorBoxCarouselVersion url="./MAD_comment.json"/>, document.querySelector('.authorMAD-small'));
+  ReactDOM.render(<AuthorBoxCarouselVersion url="./web_comment.json"/>, document.querySelector('.authorWeb-small'));
+  ReactDOM.render(<AuthorBoxCarouselVersion url="./c4e_comment.json"/>, document.querySelector('.authorC4E-small'));
